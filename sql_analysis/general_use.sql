@@ -1,0 +1,10 @@
+SELECT * FROM album LIMIT 5;
+SELECT * FROM artist LIMIT 5;
+SELECT * FROM customer LIMIT 5;
+SELECT * FROM employee LIMIT 5;
+SELECT * FROM invoice LIMIT 5;
+SELECT * FROM invoice_line LIMIT 5;
+SELECT * FROM media_type LIMIT 5;
+SELECT * FROM playlist LIMIT 5;
+SELECT * FROM playlist_track LIMIT 5;
+SELECT * FROM track LIMIT 5;
