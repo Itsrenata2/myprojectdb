@@ -12,7 +12,7 @@ ORDER BY customers_per_country DESC;
 
 -- alternative: by cities
 SELECT
-    COUNT(*) AS customers_per_country,
+    COUNT(*) AS customers_per_city,
     city
 FROM customer AS c
 GROUP BY city

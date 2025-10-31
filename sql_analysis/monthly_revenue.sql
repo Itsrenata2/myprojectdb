@@ -9,4 +9,4 @@ SELECT
 FROM invoice
 GROUP BY 
     EXTRACT(MONTH FROM invoice_date)
-ORDER BY month ASC
+ORDER BY month ASC;
